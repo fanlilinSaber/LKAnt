@@ -1,4 +1,4 @@
-Pod::s.new do |s|
+Pod::Spec.new do |s|
   s.name = 'LKAnt'
   s.version = '1.0.1'
   s.summary = '启动项维护方式可插拔，启动项之间、业务模块之间不耦合，且一次实现可在多端复用'
