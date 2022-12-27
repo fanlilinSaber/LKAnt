@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05578AAED5B245DC7F891C74 /* libPods-LKAnt IOS Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B58DEC891AB0D4E7FE1D58 /* libPods-LKAnt IOS Example.a */; };
+		1877A68D329D52E38A1167E2 /* libPods-LKAnt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 800D11D728343BE28A6128E8 /* libPods-LKAnt.a */; };
+		4806CE0E277DA15200D8DD18 /* LKAnt.h in Headers */ = {isa = PBXBuildFile; fileRef = 4806CE0D277DA15200D8DD18 /* LKAnt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4806CE1C277DA17300D8DD18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4806CE1B277DA17300D8DD18 /* AppDelegate.m */; };
+		4806CE22277DA17300D8DD18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4806CE21277DA17300D8DD18 /* ViewController.m */; };
+		4806CE25277DA17300D8DD18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4806CE23277DA17300D8DD18 /* Main.storyboard */; };
+		4806CE27277DA17400D8DD18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4806CE26277DA17400D8DD18 /* Assets.xcassets */; };
+		4806CE2A277DA17400D8DD18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4806CE28277DA17400D8DD18 /* LaunchScreen.storyboard */; };
+		4806CE2D277DA17400D8DD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4806CE2C277DA17400D8DD18 /* main.m */; };
+		4806CE32277DA21A00D8DD18 /* LKAntMach.h in Headers */ = {isa = PBXBuildFile; fileRef = 4806CE31277DA21A00D8DD18 /* LKAntMach.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4806CE34277DA25B00D8DD18 /* LKAntMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4806CE33277DA25B00D8DD18 /* LKAntMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4806CE36277DA2F700D8DD18 /* LKAntPlug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4806CE35277DA2F700D8DD18 /* LKAntPlug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4806CE39277DA30D00D8DD18 /* LKAntContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 4806CE37277DA30D00D8DD18 /* LKAntContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4806CE3A277DA30D00D8DD18 /* LKAntContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4806CE38277DA30D00D8DD18 /* LKAntContext.m */; };
+		4806CE3C277DA4B500D8DD18 /* LKAnt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4806CE0A277DA15200D8DD18 /* LKAnt.framework */; };
+		4806CE3D277DA4B500D8DD18 /* LKAnt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4806CE0A277DA15200D8DD18 /* LKAnt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4806CE44277DA50E00D8DD18 /* LKExampleAppearancePlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 4806CE43277DA50E00D8DD18 /* LKExampleAppearancePlug.m */; };
+		4806CE47277DA52000D8DD18 /* LKExampleKeyboardPlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 4806CE46277DA52000D8DD18 /* LKExampleKeyboardPlug.m */; };
+		4806CE4A277DA54C00D8DD18 /* LKExampleLoggerPlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 4806CE49277DA54C00D8DD18 /* LKExampleLoggerPlug.m */; };
+		4806CE4D277DA57000D8DD18 /* LKExampleNetworkConfigPlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 4806CE4C277DA57000D8DD18 /* LKExampleNetworkConfigPlug.m */; };
+		4806CE50277DA59300D8DD18 /* LKExampleRegistPlatformsPlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 4806CE4F277DA59300D8DD18 /* LKExampleRegistPlatformsPlug.m */; };
+		4806CE53277DA5AB00D8DD18 /* LKExampleNetworkPlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 4806CE52277DA5AB00D8DD18 /* LKExampleNetworkPlug.m */; };
+		4812A5A7277EA4C40028B6EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4812A5A5277EA4C40028B6EE /* README.md */; };
+		4812A5A8277EA4C40028B6EE /* LKAnt.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4812A5A6277EA4C40028B6EE /* LKAnt.podspec */; };
+		48820D35295ADF13002C54C2 /* LKExampleSwiftPlug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48820D34295ADF13002C54C2 /* LKExampleSwiftPlug.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4806CE3E277DA4B500D8DD18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4806CE01277DA15200D8DD18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4806CE09277DA15200D8DD18;
+			remoteInfo = LKAnt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4806CE40277DA4B500D8DD18 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4806CE3D277DA4B500D8DD18 /* LKAnt.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		042EE3244E20C796E0CCA8EB /* Pods-LKAnt IOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKAnt IOS Example.release.xcconfig"; path = "Target Support Files/Pods-LKAnt IOS Example/Pods-LKAnt IOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		27A42BC42279B28E10D90923 /* Pods-LKAnt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKAnt.release.xcconfig"; path = "Target Support Files/Pods-LKAnt/Pods-LKAnt.release.xcconfig"; sourceTree = "<group>"; };
+		2B0B7E979A74381096A58907 /* Pods-LKAnt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKAnt.debug.xcconfig"; path = "Target Support Files/Pods-LKAnt/Pods-LKAnt.debug.xcconfig"; sourceTree = "<group>"; };
+		4806CE0A277DA15200D8DD18 /* LKAnt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LKAnt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4806CE0D277DA15200D8DD18 /* LKAnt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKAnt.h; sourceTree = "<group>"; };
+		4806CE18277DA17300D8DD18 /* LKAnt IOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LKAnt IOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4806CE1A277DA17300D8DD18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4806CE1B277DA17300D8DD18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4806CE20277DA17300D8DD18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4806CE21277DA17300D8DD18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4806CE24277DA17300D8DD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4806CE26277DA17400D8DD18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4806CE29277DA17400D8DD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4806CE2B277DA17400D8DD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4806CE2C277DA17400D8DD18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4806CE31277DA21A00D8DD18 /* LKAntMach.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKAntMach.h; sourceTree = "<group>"; };
+		4806CE33277DA25B00D8DD18 /* LKAntMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKAntMacros.h; sourceTree = "<group>"; };
+		4806CE35277DA2F700D8DD18 /* LKAntPlug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKAntPlug.h; sourceTree = "<group>"; };
+		4806CE37277DA30D00D8DD18 /* LKAntContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKAntContext.h; sourceTree = "<group>"; };
+		4806CE38277DA30D00D8DD18 /* LKAntContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAntContext.m; sourceTree = "<group>"; };
+		4806CE42277DA50E00D8DD18 /* LKExampleAppearancePlug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKExampleAppearancePlug.h; sourceTree = "<group>"; };
+		4806CE43277DA50E00D8DD18 /* LKExampleAppearancePlug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKExampleAppearancePlug.m; sourceTree = "<group>"; };
+		4806CE45277DA52000D8DD18 /* LKExampleKeyboardPlug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKExampleKeyboardPlug.h; sourceTree = "<group>"; };
+		4806CE46277DA52000D8DD18 /* LKExampleKeyboardPlug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKExampleKeyboardPlug.m; sourceTree = "<group>"; };
+		4806CE48277DA54C00D8DD18 /* LKExampleLoggerPlug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKExampleLoggerPlug.h; sourceTree = "<group>"; };
+		4806CE49277DA54C00D8DD18 /* LKExampleLoggerPlug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKExampleLoggerPlug.m; sourceTree = "<group>"; };
+		4806CE4B277DA57000D8DD18 /* LKExampleNetworkConfigPlug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKExampleNetworkConfigPlug.h; sourceTree = "<group>"; };
+		4806CE4C277DA57000D8DD18 /* LKExampleNetworkConfigPlug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKExampleNetworkConfigPlug.m; sourceTree = "<group>"; };
+		4806CE4E277DA59300D8DD18 /* LKExampleRegistPlatformsPlug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKExampleRegistPlatformsPlug.h; sourceTree = "<group>"; };
+		4806CE4F277DA59300D8DD18 /* LKExampleRegistPlatformsPlug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKExampleRegistPlatformsPlug.m; sourceTree = "<group>"; };
+		4806CE51277DA5AB00D8DD18 /* LKExampleNetworkPlug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKExampleNetworkPlug.h; sourceTree = "<group>"; };
+		4806CE52277DA5AB00D8DD18 /* LKExampleNetworkPlug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKExampleNetworkPlug.m; sourceTree = "<group>"; };
+		4812A5A5277EA4C40028B6EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4812A5A6277EA4C40028B6EE /* LKAnt.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LKAnt.podspec; sourceTree = "<group>"; };
+		48820D33295ADF12002C54C2 /* LKAnt IOS Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LKAnt IOS Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		48820D34295ADF13002C54C2 /* LKExampleSwiftPlug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKExampleSwiftPlug.swift; sourceTree = "<group>"; };
+		73B58DEC891AB0D4E7FE1D58 /* libPods-LKAnt IOS Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LKAnt IOS Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800D11D728343BE28A6128E8 /* libPods-LKAnt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LKAnt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A02E7D8100CD6BA46CF5B2 /* Pods-LKAnt IOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKAnt IOS Example.debug.xcconfig"; path = "Target Support Files/Pods-LKAnt IOS Example/Pods-LKAnt IOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4806CE07277DA15200D8DD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1877A68D329D52E38A1167E2 /* libPods-LKAnt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4806CE15277DA17300D8DD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4806CE3C277DA4B500D8DD18 /* LKAnt.framework in Frameworks */,
+				05578AAED5B245DC7F891C74 /* libPods-LKAnt IOS Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		263FE5ADACD4B65AD8DC825B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B0B7E979A74381096A58907 /* Pods-LKAnt.debug.xcconfig */,
+				27A42BC42279B28E10D90923 /* Pods-LKAnt.release.xcconfig */,
+				E9A02E7D8100CD6BA46CF5B2 /* Pods-LKAnt IOS Example.debug.xcconfig */,
+				042EE3244E20C796E0CCA8EB /* Pods-LKAnt IOS Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4806CE00277DA15200D8DD18 = {
+			isa = PBXGroup;
+			children = (
+				4812A5A5277EA4C40028B6EE /* README.md */,
+				4812A5A6277EA4C40028B6EE /* LKAnt.podspec */,
+				4806CE0C277DA15200D8DD18 /* LKAnt */,
+				4806CE19277DA17300D8DD18 /* LKAnt IOS Example */,
+				4806CE0B277DA15200D8DD18 /* Products */,
+				4806CE3B277DA4B500D8DD18 /* Frameworks */,
+				263FE5ADACD4B65AD8DC825B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4806CE0B277DA15200D8DD18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4806CE0A277DA15200D8DD18 /* LKAnt.framework */,
+				4806CE18277DA17300D8DD18 /* LKAnt IOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4806CE0C277DA15200D8DD18 /* LKAnt */ = {
+			isa = PBXGroup;
+			children = (
+				4806CE0D277DA15200D8DD18 /* LKAnt.h */,
+				4806CE31277DA21A00D8DD18 /* LKAntMach.h */,
+				4806CE33277DA25B00D8DD18 /* LKAntMacros.h */,
+				4806CE35277DA2F700D8DD18 /* LKAntPlug.h */,
+				4806CE37277DA30D00D8DD18 /* LKAntContext.h */,
+				4806CE38277DA30D00D8DD18 /* LKAntContext.m */,
+			);
+			path = LKAnt;
+			sourceTree = "<group>";
+		};
+		4806CE19277DA17300D8DD18 /* LKAnt IOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				4806CE41277DA4F000D8DD18 /* Plug */,
+				4806CE1A277DA17300D8DD18 /* AppDelegate.h */,
+				4806CE1B277DA17300D8DD18 /* AppDelegate.m */,
+				4806CE20277DA17300D8DD18 /* ViewController.h */,
+				4806CE21277DA17300D8DD18 /* ViewController.m */,
+				4806CE23277DA17300D8DD18 /* Main.storyboard */,
+				4806CE26277DA17400D8DD18 /* Assets.xcassets */,
+				4806CE28277DA17400D8DD18 /* LaunchScreen.storyboard */,
+				4806CE2B277DA17400D8DD18 /* Info.plist */,
+				4806CE2C277DA17400D8DD18 /* main.m */,
+			);
+			path = "LKAnt IOS Example";
+			sourceTree = "<group>";
+		};
+		4806CE3B277DA4B500D8DD18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				800D11D728343BE28A6128E8 /* libPods-LKAnt.a */,
+				73B58DEC891AB0D4E7FE1D58 /* libPods-LKAnt IOS Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4806CE41277DA4F000D8DD18 /* Plug */ = {
+			isa = PBXGroup;
+			children = (
+				4806CE42277DA50E00D8DD18 /* LKExampleAppearancePlug.h */,
+				4806CE43277DA50E00D8DD18 /* LKExampleAppearancePlug.m */,
+				4806CE45277DA52000D8DD18 /* LKExampleKeyboardPlug.h */,
+				4806CE46277DA52000D8DD18 /* LKExampleKeyboardPlug.m */,
+				4806CE48277DA54C00D8DD18 /* LKExampleLoggerPlug.h */,
+				4806CE49277DA54C00D8DD18 /* LKExampleLoggerPlug.m */,
+				4806CE4B277DA57000D8DD18 /* LKExampleNetworkConfigPlug.h */,
+				4806CE4C277DA57000D8DD18 /* LKExampleNetworkConfigPlug.m */,
+				4806CE4E277DA59300D8DD18 /* LKExampleRegistPlatformsPlug.h */,
+				4806CE4F277DA59300D8DD18 /* LKExampleRegistPlatformsPlug.m */,
+				4806CE51277DA5AB00D8DD18 /* LKExampleNetworkPlug.h */,
+				4806CE52277DA5AB00D8DD18 /* LKExampleNetworkPlug.m */,
+				48820D34295ADF13002C54C2 /* LKExampleSwiftPlug.swift */,
+				48820D33295ADF12002C54C2 /* LKAnt IOS Example-Bridging-Header.h */,
+			);
+			path = Plug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4806CE05277DA15200D8DD18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4806CE39277DA30D00D8DD18 /* LKAntContext.h in Headers */,
+				4806CE36277DA2F700D8DD18 /* LKAntPlug.h in Headers */,
+				4806CE34277DA25B00D8DD18 /* LKAntMacros.h in Headers */,
+				4806CE32277DA21A00D8DD18 /* LKAntMach.h in Headers */,
+				4806CE0E277DA15200D8DD18 /* LKAnt.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4806CE09277DA15200D8DD18 /* LKAnt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4806CE11277DA15200D8DD18 /* Build configuration list for PBXNativeTarget "LKAnt" */;
+			buildPhases = (
+				7DFC344BABE3DEBB58B690CC /* [CP] Check Pods Manifest.lock */,
+				4806CE05277DA15200D8DD18 /* Headers */,
+				4806CE06277DA15200D8DD18 /* Sources */,
+				4806CE07277DA15200D8DD18 /* Frameworks */,
+				4806CE08277DA15200D8DD18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKAnt;
+			productName = LKAnt;
+			productReference = 4806CE0A277DA15200D8DD18 /* LKAnt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4806CE17277DA17300D8DD18 /* LKAnt IOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4806CE2E277DA17400D8DD18 /* Build configuration list for PBXNativeTarget "LKAnt IOS Example" */;
+			buildPhases = (
+				81B099AA9B6E8C559104DBFC /* [CP] Check Pods Manifest.lock */,
+				4806CE14277DA17300D8DD18 /* Sources */,
+				4806CE15277DA17300D8DD18 /* Frameworks */,
+				4806CE16277DA17300D8DD18 /* Resources */,
+				4806CE40277DA4B500D8DD18 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4806CE3F277DA4B500D8DD18 /* PBXTargetDependency */,
+			);
+			name = "LKAnt IOS Example";
+			productName = "LKAnt IOS Example";
+			productReference = 4806CE18277DA17300D8DD18 /* LKAnt IOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4806CE01277DA15200D8DD18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				ORGANIZATIONNAME = "ZHONG JUN KE JI";
+				TargetAttributes = {
+					4806CE09277DA15200D8DD18 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4806CE17277DA17300D8DD18 = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1410;
+					};
+				};
+			};
+			buildConfigurationList = 4806CE04277DA15200D8DD18 /* Build configuration list for PBXProject "LKAnt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4806CE00277DA15200D8DD18;
+			productRefGroup = 4806CE0B277DA15200D8DD18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4806CE09277DA15200D8DD18 /* LKAnt */,
+				4806CE17277DA17300D8DD18 /* LKAnt IOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4806CE08277DA15200D8DD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4812A5A8277EA4C40028B6EE /* LKAnt.podspec in Resources */,
+				4812A5A7277EA4C40028B6EE /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4806CE16277DA17300D8DD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4806CE2A277DA17400D8DD18 /* LaunchScreen.storyboard in Resources */,
+				4806CE27277DA17400D8DD18 /* Assets.xcassets in Resources */,
+				4806CE25277DA17300D8DD18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DFC344BABE3DEBB58B690CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LKAnt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81B099AA9B6E8C559104DBFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LKAnt IOS Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4806CE06277DA15200D8DD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4806CE3A277DA30D00D8DD18 /* LKAntContext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4806CE14277DA17300D8DD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4806CE50277DA59300D8DD18 /* LKExampleRegistPlatformsPlug.m in Sources */,
+				4806CE22277DA17300D8DD18 /* ViewController.m in Sources */,
+				4806CE1C277DA17300D8DD18 /* AppDelegate.m in Sources */,
+				48820D35295ADF13002C54C2 /* LKExampleSwiftPlug.swift in Sources */,
+				4806CE4A277DA54C00D8DD18 /* LKExampleLoggerPlug.m in Sources */,
+				4806CE4D277DA57000D8DD18 /* LKExampleNetworkConfigPlug.m in Sources */,
+				4806CE53277DA5AB00D8DD18 /* LKExampleNetworkPlug.m in Sources */,
+				4806CE2D277DA17400D8DD18 /* main.m in Sources */,
+				4806CE44277DA50E00D8DD18 /* LKExampleAppearancePlug.m in Sources */,
+				4806CE47277DA52000D8DD18 /* LKExampleKeyboardPlug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4806CE3F277DA4B500D8DD18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4806CE09277DA15200D8DD18 /* LKAnt */;
+			targetProxy = 4806CE3E277DA4B500D8DD18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4806CE23277DA17300D8DD18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4806CE24277DA17300D8DD18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4806CE28277DA17400D8DD18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4806CE29277DA17400D8DD18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4806CE0F277DA15200D8DD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4806CE10277DA15200D8DD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4806CE12277DA15200D8DD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B0B7E979A74381096A58907 /* Pods-LKAnt.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L4DFRU2343;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhongjunkeji.LKAnt;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4806CE13277DA15200D8DD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A42BC42279B28E10D90923 /* Pods-LKAnt.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L4DFRU2343;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhongjunkeji.LKAnt;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4806CE2F277DA17400D8DD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A02E7D8100CD6BA46CF5B2 /* Pods-LKAnt IOS Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4DFRU2343;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LKAnt IOS Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zhongjunkeji.LKAnt-IOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LKAnt IOS Example/Plug/LKAnt IOS Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4806CE30277DA17400D8DD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 042EE3244E20C796E0CCA8EB /* Pods-LKAnt IOS Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4DFRU2343;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LKAnt IOS Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zhongjunkeji.LKAnt-IOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LKAnt IOS Example/Plug/LKAnt IOS Example-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4806CE04277DA15200D8DD18 /* Build configuration list for PBXProject "LKAnt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4806CE0F277DA15200D8DD18 /* Debug */,
+				4806CE10277DA15200D8DD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4806CE11277DA15200D8DD18 /* Build configuration list for PBXNativeTarget "LKAnt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4806CE12277DA15200D8DD18 /* Debug */,
+				4806CE13277DA15200D8DD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4806CE2E277DA17400D8DD18 /* Build configuration list for PBXNativeTarget "LKAnt IOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4806CE2F277DA17400D8DD18 /* Debug */,
+				4806CE30277DA17400D8DD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4806CE01277DA15200D8DD18 /* Project object */;
+}
