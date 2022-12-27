@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, '9.0'
   s.frameworks = 'Foundation', 'UIKit'
   s.requires_arc = true
-  s.source = { :git => 'https://github.com/fanlilinSaber/LKAnt.git', :tag => 'v#{s.version}' }
+  s.source = { :git => 'https://github.com/fanlilinSaber/LKAnt.git', :tag => "v#{s.version}" }
   s.source_files = 'LKAnt/*.{h,m}'
   s.static_framework = true
 end
