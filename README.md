@@ -20,9 +20,6 @@ LKAnt实现原理简述：Clang 提供了很多的编译器函数，它们可以
 - ①请在Podfile中指定→ pod 'LKAnt'
 - ②然后终端执行 `pod install`
 
-### Fork的私有仓库地址
-pod 'LKAnt', :git => 'https://x.xx.com/xxx/LKAnt.git'
-
 ## 使用
 
 **OC**
